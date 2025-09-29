@@ -53,8 +53,8 @@ incubyte-string-calculator-tdd/
 ## ▶️ How to Run Tests
 ```bash
 # Clone repository
-git clone <your-repo-url>
-cd incubyte-string-calculator-tdd
+git clone https://github.com/Lucifer-Valhein/Incubyte-TDD-Kata-String-Calculator.git
+cd Incubyte-TDD-Kata-String-Calculator
 
 # Ensure Java 17+ and Maven 3.8+ are installed
 java -version
