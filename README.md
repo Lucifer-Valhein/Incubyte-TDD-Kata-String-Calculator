@@ -34,3 +34,32 @@ All functionality is developed **incrementally through automated tests**, follow
 ---
 
 ## 📂 Project Structure
+incubyte-string-calculator-tdd/
+├── pom.xml
+├── README.md
+└── src
+├── main
+│ └── java
+│ └── com/incubyte/
+│ └── StringCalculator.java
+└── test
+└── java
+└── com/incubyte/
+└── StringCalculatorTest.java
+
+
+---
+
+## ▶️ How to Run Tests
+```bash
+# Clone repository
+git clone <your-repo-url>
+cd incubyte-string-calculator-tdd
+
+# Ensure Java 17+ and Maven 3.8+ are installed
+java -version
+mvn -v
+
+# Run all tests
+mvn clean test
+
